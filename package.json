@@ -1,0 +1,17 @@
+{
+  "name": "onnuri_signage",
+  "version": "1.0.0",
+  "description": "Park golf club digital signage website for vertical TV",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "generate-images": "node scripts/generate-image-lists.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.6.0"
+  }
+}
